@@ -1,0 +1,2 @@
+module MydesignsHelper
+end
