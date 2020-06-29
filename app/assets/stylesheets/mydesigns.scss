@@ -1,3 +1,55 @@
 // Place all the styles related to the mydesigns controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  background-color: #81CDE4;
+}
+
+.footer .copyright {
+  font-size: 10px;
+  text-align: center;
+  color: #000000;
+}
+
+.navbar {
+  text-align: center;
+}
+
+.navbar-image img{
+  max-width: 100%;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.tweet_parent {
+  text-align: center;
+}
+
+@media screen and (min-width:0px){
+  .tweet {
+    display: inline-block;
+    margin: 1%;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width:300px){
+  .tweet {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width:600px){
+  .tweet {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:1000px){
+  .tweet {
+    width: 30%;
+  }
+}

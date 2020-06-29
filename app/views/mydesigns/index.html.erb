@@ -1,2 +1,13 @@
-<h1>Mydesigns#index</h1>
-<p>Find me in app/views/mydesigns/index.html.erb</p>
+<script async type="text/javascript" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="tweet_parent">
+  <% @tweets.each do |tweet| %>
+    <div class="tweet">
+      <blockquote class="twitter-tweet" data-conversation="none">
+        <%= link_to("", "https://twitter.com/a/status/#{tweet.tweet_id}") %>
+      </blockquote>
+    </div>
+  <% end %>
+</div>
+<div class="pagination">
+  <%= paginate @tweets %>
+</div>
