@@ -6,10 +6,16 @@ body {
   background-color: #81CDE4;
 }
 
+.footer {
+  text-align: center;
+}
+
 .footer .copyright {
   font-size: 10px;
-  text-align: center;
-  color: #000000;
+}
+
+.info {
+  font-size: 12px;
 }
 
 .navbar {
@@ -21,6 +27,10 @@ body {
 }
 
 .pagination {
+  text-align: center;
+}
+
+.privacy {
   text-align: center;
 }
 
